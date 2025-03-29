@@ -1,0 +1,46 @@
+@import url('../../node_modules/normalize.css/normalize.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+:root{
+    --bg-color-header: #6A0DAD;
+    --nav-color-text-icons: #FFD700;
+    --bg-color:#121212;
+    --title-color: #FFD700;
+
+    --main-text-color: #F5E1C8;
+    --hover-color: #F5E1C8;
+}
+
+
+body{
+    font-family: "Cinzel", serif;
+    font-style: normal;
+    background-color: var(--bg-color);
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: var(--title-color);
+}
+
+ul{
+    list-style: none;
+}
+
+
+p,span,li{
+    color: var(--main-text-color)
+}
+
+p,li,span{
+     font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+}
+

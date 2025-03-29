@@ -1,0 +1,43 @@
+@import url('../index.css');
+/* --bg-color-header: #6A0DAD;
+--nav-color-text-icons: #FFD700;
+--bg-color:#121212;
+--title-color: #FFD700;
+
+--main-text-color: #F5E1C8;
+--links-color: #F5E1C8;
+
+--hover-color: #B22222; */
+
+
+
+.classesDnd__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.classesDnd__img{
+    justify-self: center;
+    align-self: center;
+    border-radius: 1rem;
+    width: 300px;
+    object-fit: contain;
+}
+
+.classesDnd__title{
+    position: absolute;
+    bottom: 20px;
+    padding: 0.5rem;
+    border-radius: 1rem;
+
+    text-decoration: none;
+    text-align: center;
+    color: var(--main-text-color);
+
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+

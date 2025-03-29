@@ -1,0 +1,21 @@
+@import url('../index.css');
+
+.classesDnd__section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+
+    margin: 2rem 0 0 0;
+    max-width: 100vw;;
+}
+
+.classesDnd-section__title{
+
+    margin: 2rem 0 0 0;
+
+    text-align: center;
+    color: var(--title-color);
+}

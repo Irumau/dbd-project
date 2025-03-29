@@ -1,0 +1,38 @@
+
+@import url('../index.css');
+
+
+/* --bg-color-header: #6A0DAD;
+--nav-color-text-icons: #FFD700;
+--bg-color:#121212;
+--title-color: #FFD700;
+
+--main-text-color: #F5E1C8;
+--hover-color: #F5E1C8; */
+
+.classDndLevelsTable{
+
+    width: 80%;
+    color: var(--main-text-color);
+
+    border: 1px solid var(--bg-color-header);
+
+}
+
+th{
+    background-color: var(--bg-color-header);
+    color: var(--title-color);
+}
+
+
+th,tr,td{
+    width: 10%;
+    border: 1px solid var(--bg-color-header);
+    text-align: center;
+}
+
+
+.classDndLevelsTable__level{
+    background-color: var(--bg-color-header);
+    color: var(--title-color);
+}

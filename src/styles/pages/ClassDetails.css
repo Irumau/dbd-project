@@ -1,0 +1,135 @@
+
+@import url(../index.css);
+
+    /* --bg-color-header: #6A0DAD;
+    --nav-color-text-icons: #FFD700;
+    --bg-color:#121212;
+    --title-color: #FFD700;
+
+    --main-text-color: #F5E1C8;
+    --hover-color: #F5E1C8; */
+
+.classDndDetail__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem ;
+
+    position: relative;
+
+    background: linear-gradient(0deg,rgba(0,0,0,0.712), rgba(0,0,0,0.712)), 
+    no-repeat center center;
+    background-size: cover;
+
+    border-bottom: 1px solid var(--bg-color-header);
+}
+
+.classDndDetail__back-button{
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 1.5rem;
+
+
+    background-color: var(--bg-color-header);
+    border-radius: 1rem;
+    font-weight: 600;
+
+    padding: .5rem;
+    cursor: pointer;
+
+    transition: all .3s ease-in-out;
+}
+
+.classDndDetail__back-button:hover{
+    color: var(--title-color);
+}
+
+.classDndDetail__hitDie-container{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+
+    background:url('../../../src/assets/img/DiceDND.webp') no-repeat center center;
+    background-size: cover;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+
+}
+
+.classDndDetail__hitDie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    
+
+
+    background: linear-gradient(0deg,rgba(0, 0, 0, 0.712),
+    rgba(0, 0, 0, 0.712));
+    border-radius: 100%;
+    color: var(--title-color);
+
+
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.classDndDetail__hitDie-text{
+    color: var(--title-color);
+    margin: 0 0 1.1rem 0;
+    font-weight: bold;
+}
+
+
+.classDndDetail__title{
+    padding: 1rem;
+    color: var(--title-color);
+    text-decoration: underline;
+
+}
+
+.classDndDetail__subtitle{
+    padding: 1rem 0 0 2rem;
+}
+
+
+
+.classDndDetail__list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 100px;
+    list-style: none;
+    margin: 0 0 0 1rem;
+}
+
+
+.classDndDetail__proficiencies-list li::before{
+    content: "⚔︎";
+    color: var(--title-color);
+    font-size: 1.5rem;
+}
+
+.classDndDetail__list li::before{
+    content: "★";
+    color: var(--title-color);
+    font-size: 1.5rem;
+
+}
+
+
+.classDndDetail__paragraph{
+    width: 80%;
+}
+
+.ClassDndDetail__table-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 1rem;
+}

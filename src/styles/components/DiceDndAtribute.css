@@ -1,0 +1,16 @@
+
+.dice_container{
+    display: flex;
+    flex-direction: column;
+    width: fit-content; 
+    margin: 0 0 0 4rem;
+
+    .dice_img{
+        width: 120px;
+    }
+    .dice_atribute{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

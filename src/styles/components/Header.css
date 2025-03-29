@@ -1,0 +1,57 @@
+@import url('../index.css');
+
+
+/* --bg-color-header: #6A0DAD;
+--nav-color-text-icons: #FFD700;
+--bg-color:#121212;
+--title-color: #FFD700;
+
+--main-text-color: #F5E1C8;
+--links-color: #F5E1C8;
+
+--hover-color: #B22222; */
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--bg-color);
+    padding: 1rem;
+    border-bottom: .2rem solid var(--bg-color-header);
+}
+
+.header__container{
+    display: flex;
+    align-items: center;
+
+}
+
+.header__title{
+    color: var(--title-color);
+    font-weight:800;
+}
+
+
+.header__logo{
+    width: 50px;
+}
+
+
+
+
+.header__list{
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: var(--bg-color-header);
+    list-style: none;
+}
+
+.header__link{
+    color: var(--nav-color-text-icons);
+    font-weight: 600;
+}
+.header__link:hover{
+    color: var(--hover-color);
+}
+
+
